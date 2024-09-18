@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="218px" preserveAspectRatio="none" style="width:1918px;height:218px;background:#FFFFFF;" version="1.1" viewBox="0 0 1918 218" width="1918px" zoomAndPan="magnify"><defs/><g><!--MD5=[d9f75b78703733959770a1bae7362de0]
-entity Cliente--><g id="elem_Cliente"><ellipse cx="520.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M520.5,22 L520.5,49 M507.5,30 L533.5,30 M520.5,49 L507.5,64 M520.5,49 L533.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="496.5" y="78.4951">Cliente</text></g><!--MD5=[9809064f63f39ebeca5114825f78cc43]
-entity Agente--><g id="elem_Agente"><ellipse cx="1588.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1588.5,22 L1588.5,49 M1575.5,30 L1601.5,30 M1588.5,49 L1575.5,64 M1588.5,49 L1601.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1563.5" y="78.4951">Agente</text></g><!--MD5=[52ec6a8b74b13041fc2aa09119826c6e]
-entity Sistema--><g id="elem_Sistema"><ellipse cx="1225.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1225.5,22 L1225.5,49 M1212.5,30 L1238.5,30 M1225.5,49 L1212.5,64 M1225.5,49 L1238.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1198" y="78.4951">Sistema</text></g><g id="elem_UC1"><ellipse cx="65.3197" cy="185.2671" fill="#F1F1F1" rx="59.3197" ry="14.7671" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="29.3197" y="189.0147">Cadastrar</text></g><g id="elem_UC2"><ellipse cx="283.5909" cy="185.6182" fill="#F1F1F1" rx="123.5909" ry="27.1182" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="176.0909" y="188.4649">Introduzir Pedido de Assinatura</text></g><g id="elem_UC3"><ellipse cx="520.2532" cy="185.4506" fill="#F1F1F1" rx="77.7532" ry="17.9506" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="461.1994" y="189.0809">Modificar Pedido</text></g><g id="elem_UC4"><ellipse cx="713.2839" cy="185.3568" fill="#F1F1F1" rx="79.7839" ry="18.3568" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="652.5356" y="188.7613">Consultar Pedido</text></g><g id="elem_UC5"><ellipse cx="906.3536" cy="185.3707" fill="#F1F1F1" rx="77.3536" ry="17.8707" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="847.6333" y="189.0454">Cancelar Pedido</text></g><g id="elem_UC6"><ellipse cx="1349.6205" cy="185.5241" fill="#F1F1F1" rx="123.1205" ry="27.0241" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="1242.6205" y="188.3708">Avaliar Pedido Financeiramente</text></g><g id="elem_UC7"><ellipse cx="1834.2532" cy="185.4506" fill="#F1F1F1" rx="77.7532" ry="17.9506" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="1775.1994" y="189.0809">Modificar Pedido</text></g><g id="elem_UC8"><ellipse cx="1101.288" cy="185.3576" fill="#F1F1F1" rx="82.288" ry="18.8576" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1038.4505" y="188.4838">Executar Contrato</text></g><g id="elem_UC9"><ellipse cx="1614.3679" cy="185.6736" fill="#F1F1F1" rx="106.3679" ry="23.6736" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="1525.3679" y="188.5203">Gerar Contrato de Crédito</text></g><!--MD5=[e3607552411cc54365f659a5e343e33e]
-link Cliente to UC1--><g id="link_Cliente_UC1"><path d="M496.09,51.56 C435.86,69.05 275.37,116.04 142.5,158.5 C129.8,162.56 115.99,167.16 103.62,171.35 " fill="none" id="Cliente-to-UC1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="98.77,173,108.5764,173.9133,103.5077,171.4017,106.0192,166.333,98.77,173" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cc85d38e7e6d32261db1555481ba3cdf]
-link Cliente to UC2--><g id="link_Cliente_UC2"><path d="M496.47,58.69 C457.4,81.77 379.46,127.81 329.48,157.34 " fill="none" id="Cliente-to-UC2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="325.03,159.96,334.8129,158.8219,329.3338,157.4149,330.7407,151.9358,325.03,159.96" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b96003ad727383d404548b0a5b95ef7c]
-link Cliente to UC3--><g id="link_Cliente_UC3"><path d="M520.5,81.65 C520.5,107.19 520.5,140.28 520.5,161.93 " fill="none" id="Cliente-to-UC3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="520.5,167.18,524.5,158.18,520.5,162.18,516.5,158.18,520.5,167.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e668ab9e4ea8a49fff79cc6c36754a86]
-link Cliente to UC4--><g id="link_Cliente_UC4"><path d="M544.55,61.95 C580.48,88.01 647.98,136.97 685.88,164.46 " fill="none" id="Cliente-to-UC4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="690.35,167.71,685.3937,159.1991,686.2959,164.7836,680.7114,165.6858,690.35,167.71" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[31ea6923e1586cca87a2a4bad62fc942]
-link Cliente to UC5--><g id="link_Cliente_UC5"><path d="M544.65,53.26 C608,76.24 779.75,138.53 861.75,168.27 " fill="none" id="Cliente-to-UC5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="866.54,170.01,859.4372,163.1873,861.8381,168.3093,856.7161,170.7103,866.54,170.01" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6d2b1f5521f6dba57eec3eb373bf1226]
-link Agente to UC6--><g id="link_Agente_UC6"><path d="M1568.23,81.84 C1557.69,98.19 1543.46,116.38 1526.5,128.5 C1502.71,145.51 1473.54,157.5 1445.8,165.89 " fill="none" id="Agente-to-UC6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1441,167.31,1450.7636,168.6032,1445.7961,165.8969,1448.5025,160.9294,1441,167.31" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9e8ae03dd4eb4089bb50055b78b6ebcb]
-link Agente to UC7--><g id="link_Agente_UC7"><path d="M1613.9,58.96 C1658.94,84.59 1752.72,137.96 1802.25,166.15 " fill="none" id="Agente-to-UC7" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1806.61,168.63,1800.7663,160.7021,1802.2644,166.157,1796.8095,167.6551,1806.61,168.63" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[df73201857655cfdcbcc695968bce22e]
-link Agente to UC8--><g id="link_Agente_UC8"><path d="M1563.42,64.49 C1537.16,84.27 1493.9,113.67 1451.5,128.5 C1348.78,164.42 1315.55,138.95 1208.5,158.5 C1192.05,161.5 1174.36,165.49 1158.18,169.43 " fill="none" id="Agente-to-UC8" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1153.22,170.66,1162.9167,172.3846,1158.0741,169.4608,1160.9979,164.6181,1153.22,170.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[80e3058315e58cfb9c7125bcfc71a3bf]
-link Agente to UC9--><g id="link_Agente_UC9"><path d="M1595.4,81.65 C1599.77,105.2 1605.34,135.16 1609.33,156.66 " fill="none" id="Agente-to-UC9" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1610.26,161.66,1612.5463,152.0802,1609.3455,156.7443,1604.6813,153.5435,1610.26,161.66" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ede203c80596862e0bdc94dea4901d4f]
-link Sistema to UC6--><g id="link_Sistema_UC6"><path d="M1253.19,60.4 C1272.33,72.48 1297.34,90.55 1314.5,111.5 C1324.65,123.9 1332.7,139.73 1338.51,153.48 " fill="none" id="Sistema-to-UC6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1340.55,158.44,1340.8327,148.5952,1338.6513,153.8145,1333.4319,151.6332,1340.55,158.44" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="1327.5" y="124.5669">Análise Financeira</text></g><!--MD5=[cdcf090a84fb063ff9a1b2bf154adbd6]
-link Sistema to UC8--><g id="link_Sistema_UC8"><path d="M1197.97,49.3 C1165.78,56.56 1113.94,73.7 1090.5,111.5 C1081.28,126.38 1085.02,146.15 1090.53,161.37 " fill="none" id="Sistema-to-UC8" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1092.45,166.34,1092.9465,156.5037,1090.6522,161.6744,1085.4815,159.3801,1092.45,166.34" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="1091.5" y="124.5669">Considerar Execução de Contrato</text></g><!--MD5=[1881cc9c5464685e0fd445938dff0eb0]
 @startuml
 actor Cliente
 actor Agente
@@ -28,25 +13,16 @@ usecase "Modificar Pedido" as UC7
 usecase "Executar Contrato" as UC8
 usecase "Gerar Contrato de Crédito" as UC9
 
-Cliente - -> UC1
-Cliente - -> UC2
-Cliente - -> UC3
-Cliente - -> UC4
-Cliente - -> UC5
-Agente - -> UC6
-Agente - -> UC7
-Agente - -> UC8
-Agente - -> UC9
+Cliente --> UC1
+Cliente --> UC2
+Cliente --> UC3
+Cliente --> UC4
+Cliente --> UC5
+Agente --> UC6
+Agente --> UC7
+Agente --> UC8
+Agente --> UC9
 
 Sistema - -> UC6 : "Análise Financeira"
 Sistema - -> UC8 : "Considerar Execução de Contrato"
 @enduml
-
-PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
-(GPL source distribution)
-Java Runtime: OpenJDK Runtime Environment
-JVM: OpenJDK 64-Bit Server VM
-Default Encoding: UTF-8
-Language: en
-Country: null
---></g></svg>
