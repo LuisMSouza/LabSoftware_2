@@ -1,0 +1,41 @@
+@startuml
+
+package "Controller" {
+  class AutenticacaoController
+  class PedidoController
+  class ContratoController
+  class AgenteController
+}
+
+package "Model" {
+  class Cliente
+  class Veiculo
+  class PedidoAssinatura
+  class Contrato
+  class CreditoSeguro
+  class Endereco
+  class Rendimento
+}
+
+package "Repository" {
+  interface ClienteRepository
+  interface PedidoAssinaturaRepository
+  interface ContratoRepository
+  interface AgenteRepository
+  interface CreditoSeguroRepository
+}
+
+package "Service" {
+  class PedidoService
+  class ContratoService
+}
+
+
+
+Controller --> Service
+Service --> Model
+Service --> Repository
+Model --> Repository
+
+
+@enduml
