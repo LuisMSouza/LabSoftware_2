@@ -1,7 +1,8 @@
 @startuml
+left to right direction
+
 actor Cliente
 actor Agente
-actor Sistema
 
 usecase "Cadastrar" as UC1
 usecase "Introduzir Pedido de Assinatura" as UC2
@@ -12,17 +13,21 @@ usecase "Avaliar Pedido Financeiramente" as UC6
 usecase "Modificar Pedido" as UC7
 usecase "Executar Contrato" as UC8
 usecase "Gerar Contrato de Crédito" as UC9
+usecase "Análise Financeira" as UC10
+usecase "Considerar Execução de Contrato" as UC11
 
 Cliente --> UC1
 Cliente --> UC2
 Cliente --> UC3
 Cliente --> UC4
 Cliente --> UC5
+
 Agente --> UC6
 Agente --> UC7
 Agente --> UC8
 Agente --> UC9
 
-Sistema - -> UC6 : "Análise Financeira"
-Sistema - -> UC8 : "Considerar Execução de Contrato"
+UC6 -left-> UC10 : <<include>>
+UC8 -left-> UC11 : <<include>>
+
 @enduml

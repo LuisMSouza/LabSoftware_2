@@ -66,71 +66,6 @@ class Rendimento {
   - double valor
 }
 
-class AutenticacaoController {
-  + login(String username, String senha)
-  + logout()
-}
-
-class PedidoController {
-  + criarPedido(PedidoAssinatura pedido)
-  + modificarPedido(Long id, PedidoAssinatura novoPedido)
-  + consultarPedido(Long id)
-  + cancelarPedido(Long id)
-}
-
-class ContratoController {
-  + gerarContrato(PedidoAssinatura pedido)
-  + executarContrato(Long id)
-}
-
-class AgenteController {
-  + avaliarPedido(Long id)
-  + modificarPedido(Long id, PedidoAssinatura novoPedido)
-}
-
-interface ClienteRepository {
-  + save(Cliente cliente)
-  + findById(Long id)
-  + findAll()
-}
-
-interface AgenteRepository {
-  + save(Agente agente)
-  + findById(Long id)
-  + findAll()
-}
-
-interface VeiculoRepository {
-  + save(Veiculo veiculo)
-  + findById(Long id)
-  + findAll()
-}
-
-interface PedidoAssinaturaRepository {
-  + save(PedidoAssinatura pedido)
-  + findById(Long id)
-  + findAll()
-}
-
-interface ContratoRepository {
-  + save(Contrato contrato)
-  + findById(Long id)
-  + findAll()
-}
-
-interface SeguroRepository {
-  + save(Seguro credito)
-  + findById(Long id)
-  + findAll()
-}
-
-Cliente --> ClienteRepository
-Agente --> AgenteRepository
-Veiculo --> VeiculoRepository
-PedidoAssinatura --> PedidoAssinaturaRepository
-Contrato --> ContratoRepository
-Seguro --> SeguroRepository
-
 Usuario <|-- Cliente
 Usuario <|-- Agente
 Cliente "1" --> "0..*" PedidoAssinatura
@@ -142,9 +77,4 @@ Contrato "1" --> "1" PedidoAssinatura
 Contrato "1" --> "0..1" Seguro
 Cliente "1" --> "1" Endereco
 Cliente "1" --> "0..*" Rendimento
-AutenticacaoController --> Usuario
-PedidoController --> PedidoAssinatura
-ContratoController --> Contrato
-AgenteController --> Agente
-
 @enduml
